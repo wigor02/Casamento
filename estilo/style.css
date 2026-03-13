@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+@import url('https://fonts.cdnfonts.com/css/bickham-script-pro');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+:root {
+    --fontTitulo1: "Parisienne", cursive;
+    --fonttitulo2: 'Bickham Script Pro', cursive;
+    --fontTexto: "Lora", serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: #8EB1D1;
+}
+
+header {
+    background-color: #1C2B48;
+    color: #D4AF37;
+    text-align: center;
+    
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-family: var(--fontTitulo1);
+    font-size: 10vw;
+    font-weight: 300;
+}
+
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--fontTitulo1);
+    font-size: 15vw;
+}
+
+hader a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+hader a, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fontTexto);
+    font-size: 3.5vw;
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: #8EB1D1;
+    color: #1C2B48;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.imagem {
+    background-color: rgb(10, 9, 9);
+    color: white;
+    box-shadow: inset 2px 2px 6px 0px #8EB1D1;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p {
+    display: inline-block;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.288); 
+}
+
+section#img01 {
+    background-image: url(../imagens/praiaw.jpeg);
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url(../imagens/mineraiw.jpeg);
+    
+}
+
+footer {
+    background-color: #1C2B48;
+    color: #D4AF37;
+    text-align: center;
+    padding: 10px;
+}
