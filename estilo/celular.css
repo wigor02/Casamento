@@ -23,8 +23,8 @@ section.imagem {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: crisp-edges;
 
-    min-height: 80vh;
-    height: 100vh;
+    min-height: 60vh;
+    height: 80vh;
 
     display: flex;
     align-items: flex-end;
