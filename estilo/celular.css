@@ -115,7 +115,7 @@
 /* CONTEÚDO SOBREPOSTO */
 .conteudo {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -152,7 +152,7 @@
 .nomes {
     font-family: 'Parisienne', cursive;
     font-size: 42px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .nomes span {
@@ -161,6 +161,27 @@
     margin: 10px 0;
 }
 
+section.normal {
+    background-color: #f5f1e8;
+    padding: 60px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+section.normal p {
+    max-width: 500px;
+    text-align: center;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    line-height: 1.6;
+
+    color:  #c9a646;
+
+    padding: 20px;
+    border-left: 2px solid #d4af37;
+    border-right: 2px solid #d4af37;
+}
 section.imagem {
     background-image: url(../imagens/praiah.jpeg);
     background-size: cover;
