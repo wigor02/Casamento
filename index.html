@@ -67,7 +67,8 @@
     </section>
     
     
-    <section class="imagem" id="img01">
+    <section class="imagem">
+        <div class="parallax-bg" style="background-image: url(./imagens/praiah.jpeg);"></div>
         <p>
             “Escolhemos caminhar juntos, <br>
             construir sonhos e transformar o amor <br> em nosso para sempre.”
@@ -83,7 +84,8 @@
     </section>
     
     
-    <section class="imagem" id="img02">
+    <section class="imagem">
+        <div class="parallax-bg" style="background-image: url(./imagens/mineraih.jpeg);"></div>
         <p>
             “Por isso, convidamos você <br>para testemunhar e celebrar conosco o início <br> deste novo capítulo.”
         </p>
@@ -116,6 +118,32 @@
             </p>
         </section>
     </footer>
+    <script>
+        const parallax = document.querySelectorAll('.parallax-bg');
+
+        window.addEventListener('scroll', () => {
+            parallax.forEach(bg => {
+                let offset = window.scrolly;
+                bg.style.transform = `translatey(${offset * 0.3}px)`
+            });
+        });
+    </script>
+    <script>
+console.log("JS funcionando");
+</script>
 </main>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const parallax = document.querySelectorAll('.parallax-bg');
+
+    window.addEventListener('scroll', () => {
+        let scrollY = window.scrollY;
+
+        parallax.forEach(bg => {
+            bg.style.transform = `translateY(${scrollY * 0.3}px)`;
+        });
+    });
+});
+</script>
 </body>
 </html>
