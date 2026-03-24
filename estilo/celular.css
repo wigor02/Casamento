@@ -116,7 +116,7 @@ section.imagem {
     min-height: 400px;
 
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
 
     background-size: cover;
@@ -135,6 +135,7 @@ section.imagem {
 section.imagem p {
     color: #fff;
     text-align: center;
+    margin-bottom: 60px;
 
     font-family: 'Playfair Display', serif;
     font-size: 15px;
