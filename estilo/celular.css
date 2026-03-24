@@ -102,6 +102,15 @@ section.normal p {
     border-right: 2px solid #d4af37;
 }
 
+section.normal p::before,
+section.normal p::after {
+    content: "❦";
+    display: block;
+    color: #d4af37;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
 section.imagem {
     height: 80vh;
     min-height: 400px;
@@ -128,21 +137,22 @@ section.imagem p {
     text-align: center;
 
     font-family: 'Playfair Display', serif;
-    font-size: 20px;
-    line-height: 1.7;
+    font-size: 15px;
+    line-height: 1.4;
     font-style: italic;
     letter-spacing: 0.5px;
 
-    padding: 25px 30px;
-    max-width: 500px;
+    padding: 10px 12px;
+    max-width: 280px;
+    width: 90%;
 
-    background: rgba(0, 0, 0, 0.25);
+    background: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(4px);
 
     border-radius: 10px;
-    border: 1px solid rgba(212, 175, 55, 0.3);
+    border: none;
+    margin: 0 auto;
 }
-
 section.imagem p::before,
 section.imagem p::after {
     content: "❦";
