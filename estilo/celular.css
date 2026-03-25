@@ -45,15 +45,34 @@
 /* CONTEÚDO SOBREPOSTO */
 .conteudo {
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 
+    height: 100%;
     width: 80%;
     max-width: 500px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     text-align: center;
     color: #c9a646;
+}
+
+.topo {
+    margin-top: 40px;
+}
+
+.meio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baixo {
+    margin-bottom: 40px;
 }
 
 
@@ -94,7 +113,7 @@
 }
 
 .versiculo {
-    margin-top: 25px;
+    margin-top: 30px;
 
     font-family: 'Playfair Display', serif;
     font-size: 13px;
