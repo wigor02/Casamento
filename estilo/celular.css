@@ -65,6 +65,15 @@
     margin-top: 60px;
 }
 
+.topo::before,
+.topo::after {
+    content: "❦";
+    display: block;
+    color: #d4af37;
+    font-size: 14px;
+    margin: 8px 0;
+}
+
 .meio {
     display: flex;
     align-items: center;
@@ -175,7 +184,7 @@ section.normal p::after {
 }
 
 section.imagem {
-    height: 80vh;
+    height: 75vh;
     min-height: 400px;
 
     display: flex;
