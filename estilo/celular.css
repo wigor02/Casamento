@@ -105,6 +105,7 @@
     margin: 0;
     line-height: 1.2;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 
 /* NOMES (DESTAQUE REAL) */
@@ -127,6 +128,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 13px;
     line-height: 1.5;
+    font-weight: bold;
 
     color: #c9a646;
     opacity: 0.85;
